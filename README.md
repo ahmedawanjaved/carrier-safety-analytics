@@ -82,5 +82,26 @@ investigation toward predictive pre-crash prioritization.
 
 ---
 
-*Full methodology and code available in this repository.  
-Python implementation in progress.*
+---
+
+## Visualizations
+
+### EDA — Data Quality & Distributions
+![Missing Values](eda_missing_heatmap.png)
+![Class Balance](eda_class_balance.png)
+![Feature Distributions](eda_distributions.png)
+![Correlation Matrix](eda_correlation.png)
+![OOS Rate by Operation](eda_oos_by_operation.png)
+![HazMat Flag vs Dangerous](eda_hm_flag_dangerous.png)
+
+### Q1 — Random Forest: Predicting OOS Violations
+![Per-BASIC Violin Plots](basic_violin_plots.png)
+![OOS Composition by Operation](oos_composition_by_operation.png)
+![AUC Comparison: Strict vs Fingerprint](auc_comparison.png)
+![Predicted Probability Density](probability_density_comparison.png)
+![Variable Importance](variable_importance.png)
+
+### Q2 — K-Means Risk Segmentation
+![Elbow Method](elbow_method.png)
+![PCA Cluster Projection](pca_cluster_projection.png)
+![Cluster Outcome Metrics](cluster_outcome_metrics.png)
