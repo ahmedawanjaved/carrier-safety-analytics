@@ -46,11 +46,11 @@ The strongest single predictor was **vehicle maintenance violation rate**
 K-Means clustering on 15 standardized features segmented the carrier 
 population into four distinct risk profiles.
 
-One segment stood out: **intrastate hazmat carriers** — small in number 
-but responsible for a disproportionate share of hazardous material 
-releases. Exactly the group that warrants targeted rather than uniform 
-enforcement.
-
+One segment stood out: **Cluster 4 — large interstate fleet operators** 
+— responsible for peak crash frequency and the highest aggregate severity 
+weight, warranting disproportionate enforcement focus. A separate hazmat 
+cluster showed elevated hazmat violation rates despite lower overall crash 
+frequency, requiring specialized rather than general intervention.
 ---
 
 ## Analytical Rigor
@@ -82,7 +82,6 @@ investigation toward predictive pre-crash prioritization.
 
 ---
 
----
 
 ## Visualizations
 
